@@ -35,4 +35,10 @@
 
 ### Example
 - Configuration of Pod
+    ![images](https://github.com/ikromnurrohim/kubernetes/blob/master/assets/template-pod.png)
+
+- Connect Deployment to Pod
+    ![images](https://github.com/ikromnurrohim/kubernetes/blob/master/assets/connection-depl-to-pods.png)
+- Connect Service to Deployement
+    ![images](https://github.com/ikromnurrohim/kubernetes/blob/master/assets/connection-service-to-depl.png)
     
