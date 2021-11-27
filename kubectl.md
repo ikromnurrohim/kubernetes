@@ -81,9 +81,18 @@ kubectl get nodes | pod | services | replicaset | deployment
 ```
 
 ### Debugging pods
-Get info about Pod          
+Get info about Pod or Sevice       
 ``` console
-kubectl describe pod [pod name]
+kubectl describe pod [pod name] | service [service name]
+``` 
+Get more info about Pod
+``` console
+kubectl get [pod] | [service] -o wide
+``` 
+Get update configuration file Deployment
+``` console
+kubectl get deployment [name deployment] -o yaml    # which actually reside from Etcd
+kubectl get deployment nginx-deploymnent -o yaml > nginx-deploymnent-result.yaml    # to make result on file
 ``` 
 Log to console              
 ``` console
